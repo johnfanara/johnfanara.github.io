@@ -1,3 +1,4 @@
+var spotifyAuth = require('./spotify-auth');
 // Listen for the click event on the search button
 document.getElementById("search-button").addEventListener("click", function() {
     // Retrieve the values of the location and artist input fields
